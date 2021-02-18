@@ -75,7 +75,7 @@ namespace eForm.Repository.Dapper
 
         private string GenerateRequestNumber(IDbConnection connection, IDbTransaction transaction)
         {
-            string TemplateNumber = "INV-" +  "-";
+            string TemplateNumber = "INV-";
             return GetRunningNumber(connection, transaction, TemplateNumber);
         }
 

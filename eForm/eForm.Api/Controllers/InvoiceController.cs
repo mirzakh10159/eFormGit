@@ -23,9 +23,7 @@ namespace eForm.Api.Controllers
 
         [HttpPost]
         [Route("invoice/submit")]
-        [ProducesResponseType(typeof(IEnumerable), StatusCodes.Status200OK)]
-        [ProducesResponseType(typeof(string), StatusCodes.Status400BadRequest)]
-        public async Task<JsonResult> Submit(InvoiceHeader data)
+        public async Task<JsonResult> Submit([FromBody] InvoiceHeader data)
         {
             ResponseMessage<object> response = new ResponseMessage<object>();
             try

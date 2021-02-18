@@ -64,6 +64,7 @@ namespace eForm.Repository.SQLQuery {
         ///   Looks up a localized string similar to SELECT RequestNumber
         ///      ,DetailName
         ///      ,Qty
+        ///      ,Rate
         ///      ,UoMID
         ///  FROM InvoiceDetail
         ///  WHERE RequestNumber = @RequestNumber.
@@ -100,11 +101,13 @@ namespace eForm.Repository.SQLQuery {
         ///           (RequestNumber
         ///           ,DetailName
         ///           ,Qty
+        ///           ,Rate
         ///           ,UoMID)
         ///     VALUES
         ///           (@RequestNumber
         ///           ,@DetailName
         ///           ,@Qty
+        ///           ,@Rate
         ///           ,@UoMID)
         ///
         ///
