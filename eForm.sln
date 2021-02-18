@@ -15,8 +15,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApi", "WebApi", "{E37211
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DatabaseScript", "DatabaseScript", "{B006A8AC-F470-4F1E-B06A-A07ED0CD0FF0}"
 	ProjectSection(SolutionItems) = preProject
-		C:\Users\user\Documents\DBData.sql = C:\Users\user\Documents\DBData.sql
+		DatabaseScript\DBScript.sql = DatabaseScript\DBScript.sql
 	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApp", "WebApp", "{27360C90-AB00-4CA7-84E0-54161E454C3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eForm.UI", "eForm.UI\eForm.UI.csproj", "{6D193C73-04FC-490A-9B1B-8A8ACD55EF3C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,6 +40,10 @@ Global
 		{13945D54-EE03-465F-B5C7-8F46FCFCB1AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{13945D54-EE03-465F-B5C7-8F46FCFCB1AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{13945D54-EE03-465F-B5C7-8F46FCFCB1AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D193C73-04FC-490A-9B1B-8A8ACD55EF3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D193C73-04FC-490A-9B1B-8A8ACD55EF3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D193C73-04FC-490A-9B1B-8A8ACD55EF3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D193C73-04FC-490A-9B1B-8A8ACD55EF3C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,6 +52,7 @@ Global
 		{6077E99F-EFAA-4422-9462-260602E27EFB} = {E3721163-7B0C-4793-852D-F4E739F3C82D}
 		{8EB59329-6565-474F-913E-8F0569F93975} = {AA993CEE-3795-42D0-A23E-861BEF65446A}
 		{13945D54-EE03-465F-B5C7-8F46FCFCB1AE} = {AA993CEE-3795-42D0-A23E-861BEF65446A}
+		{6D193C73-04FC-490A-9B1B-8A8ACD55EF3C} = {27360C90-AB00-4CA7-84E0-54161E454C3C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2660A940-AD10-4ABF-8728-53A6D094612C}
